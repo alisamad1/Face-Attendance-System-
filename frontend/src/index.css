@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.webcam-container {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.webcam-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face-guide {
+  border: 2px dashed #00ff00;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  opacity: 0.6;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.webcam-info {
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 10px 0;
+} 
